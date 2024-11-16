@@ -24,13 +24,13 @@ const Search = () => {
         }}
       >
         <SelectTrigger className="outline-none md:outline-none w-full shadow-none text-lg">
-          <SelectValue placeholder="Cars" />
+          <SelectValue placeholder="Condition" />
         </SelectTrigger>
         <SelectContent>
           <SelectItem value="New">New</SelectItem>
-          <SelectItem value="Old">Old</SelectItem>
-          <SelectItem value="Certified Pre-owned">
-            Certified Pre-owned
+          <SelectItem value="Used">Used</SelectItem>
+          <SelectItem value="Certified Pre-Owned">
+            Certified Pre-Owned
           </SelectItem>
         </SelectContent>
       </Select>
@@ -69,7 +69,7 @@ const Search = () => {
         </SelectContent>
       </Select>
       <Link to={"/search?cars=" + car + "&make=" + make + "&price=" + price}>
-        <CiSearch className="text-xl bg-primary p-3 rounded-full text-[50px] text-white hover:scale-105 transition-all cursor-pointer" />
+        <CiSearch className=" bg-primary p-1 rounded-full text-white text-[30px] hover:scale-105 transition-all cursor-pointer" />
       </Link>
     </div>
   );

@@ -34,6 +34,8 @@ const AddListing = () => {
   const recordId = searchParams.get("id");
 
   useEffect(() => {
+    console.log(user?.fullName);
+
     if (mode == "edit") {
       getListingDetail();
     }
@@ -96,7 +98,7 @@ const AddListing = () => {
           ...formData,
           features: featuresData,
           createdBy: user?.primaryEmailAddress?.emailAddress,
-          userName: user?.fullName,
+          userName: user?.fullName || "anonymous",
           userImageUrl: user?.imageUrl,
           postedOn: moment().format("DD/MM/YYYY"),
         })

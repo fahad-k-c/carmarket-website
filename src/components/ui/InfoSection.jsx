@@ -20,22 +20,23 @@ function InfoSection() {
 
             <div className="p-8 sm:p-16 lg:p-24">
               <h2 className="text-2xl font-bold sm:text-3xl">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Tempore, debitis.
+                Got a Car to sell? We have the perfect buyer waiting for you...
               </h2>
 
               <p className="mt-4 text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aliquid, molestiae! Quidem est esse numquam odio deleniti,
-                beatae, magni dolores provident quaerat totam eos, aperiam
-                architecto eius quis quibusdam fugiat dicta.
+                Your trusted online destination for buying and selling quality
+                used cars! Whether you're a first-time buyer or a seasoned car
+                enthusiast, we offer a wide selection of reliable, pre-owned
+                vehicles to suit every budget and lifestyle. Our goal is to make
+                the process of finding your next car simple, transparent, and
+                stress-free.
               </p>
 
               <a
                 href="#"
                 className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
               >
-                Get in Touch
+                Get Started
               </a>
             </div>
           </div>

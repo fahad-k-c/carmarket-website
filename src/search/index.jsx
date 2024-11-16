@@ -40,7 +40,7 @@ const SearchByOptions = () => {
         <Search />
       </div>
       <div className="p-10 md:p-20">
-        <h2 className="fonnt-bold text-4xl ">Car LIst</h2>
+        <h2 className="fonnt-bold text-4xl ">Car List</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-7">
           {carList.length > 0
             ? carList.map((item, index) => (

@@ -96,7 +96,7 @@ export const Pricing = [
   },
   {
     id: 4,
-    amount: 10000,
+    amount: 1850000,
   },
 ];
 

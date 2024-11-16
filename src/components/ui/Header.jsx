@@ -15,18 +15,21 @@ const Header = () => {
     <div className="flex justify-between items-center shadow-sm p-5">
       <img src={logo} width={150} height={100} />
       <ul className="hidden  md:flex gap-16 ">
-        <li className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary">
-          Home
-        </li>
-        <li className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary">
-          Search
-        </li>
-        <li className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary">
-          New
-        </li>
-        <li className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary">
-          Preowned
-        </li>
+        <Link to={"/"}>
+          <li className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary">
+            Home
+          </li>
+        </Link>
+        <Link to={"/profile"}>
+          <li className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary">
+            Profile
+          </li>
+        </Link>
+        <Link to={"/add-listing"}>
+          <li className="font-medium hover:scale-105 transition-all cursor-pointer hover:text-primary">
+            Add-Listing
+          </li>
+        </Link>
       </ul>
 
       {isSignedIn ? (
