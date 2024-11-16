@@ -1,5 +1,5 @@
 import React from "react";
-import { Categ } from "../../shared/data";
+import { Categ } from "../../shared/Data";
 import { Link } from "react-router-dom";
 
 const Category = () => {
